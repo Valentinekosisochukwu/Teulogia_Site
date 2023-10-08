@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;500&family=Poppins&family=Raleway:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+* * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: column;
+  /* background-image: url("../img/menu.png"); */
+  width: 100%;
+  /* height: 65vh; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 15px;
+  margin: 0px 20px 0px 0px;
+  line-height: 1.2;
+}
+.nav-top button {
+  display: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px 0px 15px 15px;
+  background-color: transparent;
+}
+.header img {
+  display: block;
+  width: fit-content;
+  height:120px;
+}
+.header ul li a {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000;
+  opacity: 1;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "poppins" "serif";
+  font-weight: 400;
+  padding: 1px;
+  margin: 5px 5px;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.header ul li a span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #000;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 2rem;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
+.header ul li a:hover {
+  color: #000;
+  padding: 1px;
+  margin: 5px 5px;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.header ul li {
+  display: flex;
+  flex-direction: column;
+}
+.header ul li i {
+  display: grid;
+  justify-content: space-around;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  font-size: 27px;
+  font-family: 'Raleway' 'serif';
+  font-weight: 600;
+  margin: 20px;
+  padding: 20px;
+}
+.test1, .test2, .test3{
+margin: 70px 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/footer-2.png");
+  background-color: rgb(79, 79, 85);
+  padding:100px 10px 10px 10px;
+}
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-top img {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.footer-top div ul li {
+  font-size: 125%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.footer-top div ul li a {
+  color: #fff;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 50px;
+  color: #fff;
+  font-size: 80%;
+}
+.footer-bottom i {
+  padding: 5px;
+  font-size: 150%;
+}
